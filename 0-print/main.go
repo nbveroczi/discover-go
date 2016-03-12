@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello we are Holberton School")
+	fmt.Println("Hello, we are Holberton School")
 	t := time.Now()
 
 	fmt.Println("the date is", t.String())

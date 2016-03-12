@@ -20,18 +20,18 @@ func main() {
 	}
 
 	if school == "Holberton School" {
-		fmt.Printf("I am a student of %s\n", school)
+		fmt.Printf("I am a student of the %s\n", school)
 	} else {
 		fmt.Printf("I am NOT a student of %s\n", school)
 	}
 
 	if beautifulWeather == true {
-		fmt.Printf("It's beautiful weather!\n")
+		fmt.Printf("It's a beautiful weather!\n")
 	} else {
 		fmt.Printf("The weather is miserable!\n")
 	}
 
-	for _, holbertonFounders := range [3]string{"Rudy", "Julien", "Sylvain"} {
+	for _, holbertonFounders := range [3]string{"Rudy Rigot", "Julien Barbier", "Sylvain Kalache"} {
 		fmt.Printf("%v is a founder\n", holbertonFounders)
 	}
 }
